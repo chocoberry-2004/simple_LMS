@@ -9,7 +9,6 @@ use App\Http\Requests\UpdateBookRequest;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 
-
 class BookController extends Controller
 {
     /**

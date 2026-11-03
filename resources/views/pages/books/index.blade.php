@@ -54,7 +54,6 @@
             @foreach ($books as $book)
                 <x-cards.book :book="$book" />
             @endforeach
-
         </div>
 
         <div class="flex w-full justify-center mt-10">

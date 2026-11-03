@@ -1,5 +1,7 @@
 @props(['book'])
 
+{{-- @dd($book) --}}
+
 <article class="group h-full overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
     <a href="{{ route('books.show', $book) }}" class="block">
         <div class="relative flex h-52 items-center justify-center overflow-hidden bg-gradient-to-br from-blue-100 via-indigo-50 to-violet-100">
